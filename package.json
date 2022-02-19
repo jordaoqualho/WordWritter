@@ -1,0 +1,20 @@
+{
+  "name": "wordwritter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.2",
+    "docx": "^7.3.0",
+    "docxtemplater": "^3.29.0",
+    "express": "^4.17.3",
+    "pizzip": "^3.1.1"
+  }
+}
