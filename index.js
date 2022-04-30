@@ -4,7 +4,6 @@ const Docxtemplater = require("docxtemplater");
 const fs = require("fs");
 const path = require("path");
 
-// Load the docx file as binary content
 const content = fs.readFileSync(
   path.resolve("./docs", "contrato.docx"),
   "binary"
@@ -17,21 +16,28 @@ const doc = new Docxtemplater(zip, {
   linebreaks: true,
 });
 
-// Render the document (Replace {first_name} by John, {last_name} by Doe, ...)
 doc.render({
-  first_name: "Italo",
-  last_name: "Qualho",
+  nome: "Italo Qualho da Silva",
   phone: "44 99700-0617",
   cpf: "117.645.989-97",
+  dataDeEntrega: "30/04/2022",
+  local: "Giardino",
   logradouro: "Rua mario monteschio, 436",
+  total: 3500,
+  produtos: [
+    { nome: "bombom de morango", valor: 3.2 },
+    { nome: "bombom de uva", valor: 3.2 },
+    { nome: "bombom de coxinha", valor: 3.2 },
+    { nome: "bombom de amendoas", valor: 3.2 },
+    { nome: "bombom de morango", valor: 3.2 },
+  ],
 });
+
+doc.render();
 
 const buf = doc.getZip().generate({
   type: "nodebuffer",
-  // compression: DEFLATE adds a compression step.
-  // For a 50MB output document, expect 500ms additional CPU time
   compression: "DEFLATE",
 });
 
-// buf is a nodejs Buffer, you can either write it to a file or res.send it with express for example.
-fs.writeFileSync(path.resolve("./docs", "Contrato 19-02-2022.docx"), buf);
+fs.writeFileSync(path.resolve("./docs", "output.docx"), buf);
