@@ -1,0 +1,93 @@
+{
+  "situacao": "quitado",
+  "tipo": "encomenda",
+  "notaFiscal": null,
+  "_id": "6248801deb14f40004e88449",
+  "nomeCliente": "Leticia",
+  "valorTotal": 2013,
+  "quantidadeTotal": 486,
+  "clienteId": "62487f8feb14f40004e882a7",
+  "enderecoDeEntrega": "Retirar na loja",
+  "dataLancamento": "02/04/2022",
+  "dataEntrega": "02/04/2022  12:00",
+  "listaDeProdutos": [
+    {
+      "_id": "62009acaa4947f51a0033c18",
+      "nome": "Brigadeiro Belga",
+      "quantidade": 60,
+      "valorUnitario": 2.8,
+      "valorTotal": 168
+    },
+    {
+      "_id": "62009acba4947f51a0033c4a",
+      "nome": "Bombom De Morango",
+      "quantidade": 60,
+      "valorUnitario": 3.5,
+      "valorTotal": 210
+    },
+    {
+      "_id": "62009acfa4947f51a0033cee",
+      "nome": "Explosão De Nutella C/ Cookies",
+      "quantidade": 50,
+      "valorUnitario": 4.2,
+      "valorTotal": 210
+    },
+    {
+      "_id": "62009acba4947f51a0033c40",
+      "nome": "Bombom De Cereja",
+      "quantidade": 50,
+      "valorUnitario": 2.8,
+      "valorTotal": 140
+    },
+    {
+      "_id": "62009acaa4947f51a0033c1c",
+      "nome": "Brigadeiro Brulee",
+      "quantidade": 50,
+      "valorUnitario": 2.5,
+      "valorTotal": 125
+    },
+    {
+      "_id": "62009acda4947f51a0033cb0",
+      "nome": "Fudge De Avelã Com Caramelo",
+      "quantidade": 50,
+      "valorUnitario": 3.5,
+      "valorTotal": 175
+    },
+    {
+      "_id": "62009acfa4947f51a0033ce4",
+      "nome": "Delícia Do Pará",
+      "quantidade": 50,
+      "valorUnitario": 3.5,
+      "valorTotal": 175
+    },
+    {
+      "_id": "62009acca4947f51a0033c6a",
+      "nome": "Cestinha De Flores E Frutas",
+      "quantidade": 50,
+      "valorUnitario": 4.2,
+      "valorTotal": 210
+    },
+    {
+      "_id": "62009acaa4947f51a0033c20",
+      "nome": "Brigadeiro Kinder Bueno",
+      "quantidade": 50,
+      "valorUnitario": 3.2,
+      "valorTotal": 160
+    },
+    {
+      "_id": "6200a1adff1e9c2320dcc925",
+      "nome": "Dois Amores",
+      "quantidade": 4,
+      "valorUnitario": 62,
+      "valorTotal": 248
+    },
+    {
+      "_id": "6236138bb067a40004d884b7",
+      "nome": "Cupcake Decorado",
+      "quantidade": 12,
+      "valorUnitario": 16,
+      "valorTotal": 192
+    }
+  ],
+  "__v": 0
+}
